@@ -4,20 +4,20 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# PDF Document API - Flatten an Interactive Form
+
+This example shows how to flatten interactive form fields (e.g., text fields, buttons, list boxes). 
+
+## Files to Review
 
 * [Program.cs](./CS/FlattenInteractiveForm/Program.cs) (VB: [Program.vb](./VB/FlattenInteractiveForm/Program.vb))
 * [Program.cs](./CS/FlattenInteractiveForm/Program.cs) (VB: [Program.vb](./VB/FlattenInteractiveForm/Program.vb))
-<!-- default file list end -->
-# PDF Document API - Flatten an Interactive Form  
 
+## Documentation
 
-This example shows how to flatten interactive form fields (e.g., text fields, buttons, list boxes). <br><br>
-
-<br/>
-
-
+* [Interactive Forms in PDF Documents](https://docs.devexpress.com/OfficeFileAPI/118284/pdf-document-api/interactive-forms)
+ 
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 

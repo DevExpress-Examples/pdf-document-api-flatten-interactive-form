@@ -8,13 +8,13 @@ namespace FlattenInteractiveForm {
             using (PdfDocumentProcessor processor = new PdfDocumentProcessor()) {
 
                 // Load a document with an interactive form.
-                processor.LoadDocument("..\\..\\Document.pdf");
+                processor.LoadDocument("..\\..\\..\\Document.pdf");
 
                 // Flatten a form field by its name
                 if (processor.FlattenFormField("Nationality"))
 
                     // Save a document with the flattened form field. 
-                    processor.SaveDocument("..\\..\\Result1.pdf");
+                    processor.SaveDocument("..\\..\\..\\Result1.pdf");
 
                 // Show a message if the form field was not found in a document.
                 else
@@ -24,11 +24,11 @@ namespace FlattenInteractiveForm {
                 if (processor.FlattenForm())
 
                     // Save a document with the flattened form. 
-                    processor.SaveDocument("..\\..\\Result2.pdf");
+                    processor.SaveDocument("..\\..\\..\\Result2.pdf");
 
                 // Show a message if the interactive was not found in a document.
                 else
-                    Console.WriteLine("A document does not contain an interactive form to be flattened.");
+                    Console.WriteLine("A document does not contain an interactive form to flatten.");
             }
         }
     }
